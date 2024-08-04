@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#212343</color>
+    <color name="transparentToolbar"> #00000000</color>
+    <color name="login_color_medium">#66ffffff</color>
+    <color name="floatButtonColor">#E06037</color>
+    <color name="statusBar">#161832</color>
+    <color name="textColor">#000000</color>
+    <color name="tool_bar">#FFFFFFFF</color>
+    <color name="logoBackground">#161832</color>
+    <color name="splashBackground">#FFFFFFFF</color>
+    <color name="hintTextBackground">#81829E</color>
+    <color name="boxStroke">#939394</color>
+    <color name="endIconColor">#848591</color>
+    <color name="shimmerColor">#dddddd</color>
+    <color name="dialog_background">#000000</color>
+    <color name="dialog_title_text_color">#FFFFFF</color>
+    <color name="dialog_message_text_color">#FFFFFF</color>
+    <color name="dialog_button_text_color">#FFFFFF</color>
+    <color name="dialog_button_background_color">#007AFF</color>
+    <color name="plain_pink">#E2A8EF</color>
+    <color name="plain_tomato">#D61E42</color>
+    <color name="plain_sky">#72B9DD</color>
+    <color name="plain_orange">#D6BC88</color>
+    <color name="plain_green">#2E7429</color>
+    <color name="plain_light_green">#87CF8E</color>
+    <color name="plain_indigo">#372F7E</color>
+    <color name="plain_gray">#7A787A</color>
+    <color name="plain_white">#FBFAFB</color>
+    <color name="plain_dark_green">#0B0B0B</color>
+    <color name="plain_list">#D6E2FA</color>
+</resources>
