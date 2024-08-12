@@ -1,11 +1,13 @@
 package com.teeside.themovies.main.presentation.main
 
 
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -19,6 +21,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.teeside.themovies.biometric.presentation.BiometricUIScreen
 import com.teeside.themovies.media_details.presentation.details.MediaDetailsScreenEvents
 import com.teeside.themovies.media_details.presentation.details.MediaDetailsViewModel
 import com.teeside.themovies.media_details.presentation.details.MediaDetailScreen
@@ -33,6 +36,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -47,10 +51,9 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
 
-                Navigation(
-                    mainUiState = mainUiState,
-                    onEvent = mainViewModel::onEvent
-                )
+                BiometricUIScreen()
+
+
 
             }
         }
